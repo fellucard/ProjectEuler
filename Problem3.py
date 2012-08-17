@@ -7,7 +7,7 @@ What is the largest prime factor of the number 600851475143 ?
 __author__ = 'Mateusz'
 
 
-def Problem3(number):
+def problem3(number):
     tab = []
     startnumber = 2
     while number > 1:
@@ -17,4 +17,4 @@ def Problem3(number):
         startnumber += 1
     return tab[-1]
 
-print Problem3(600851475143)
+print problem3(600851475143)
