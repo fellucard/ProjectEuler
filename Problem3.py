@@ -18,3 +18,4 @@ def problem3(number):
     return tab[-1]
 
 print problem3(600851475143)
+# Output: 6857

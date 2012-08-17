@@ -26,3 +26,4 @@ def problem2(maxfibvalue):
     return total
 
 print problem2(4000000)
+# Output: 4613732
