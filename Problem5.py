@@ -26,7 +26,6 @@ def problem5():
     return reduce(lcm, range(2, 21))
 
 print problem5()
-
 # Output: 232792560
 
 # Bruteforce
